@@ -11,7 +11,7 @@ import SwiftUI
 struct tabDataApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+			TabViews(myView: AnyView(PathView()))
         }
     }
 }
